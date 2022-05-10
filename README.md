@@ -1,11 +1,12 @@
 # simple-password-generator
 
 ## This mini program generates a password of 8 to 32 characters
+
+---
+
 ### You can include or exclude:
 - special symbols
 - numbers
-
----
 
 ## Screenshot
 
