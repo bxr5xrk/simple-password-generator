@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	color: rgb(255, 255, 255);
+	line-height: 1.5;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-style: 16px;
+	line-height: 19px;
+	font-weight: 400;
+	font-family: 'Fira Sans', sans-serif;
+    background: linear-gradient(90deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+}
+
+h1 {
+    position: absolute;
+    margin-top: -400px;
+    opacity: 0.50;
+}
+
+.password-generator {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.54);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 0;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+}
+
+#password {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#copy {
+    cursor:pointer;
+    padding: 7px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    font-size: 15px;
+    background: none;
+    color: #ffffff;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#copy:hover {
+    border: 2px solid #ffffff;
+    background: #ffffff;
+    color: #ffffff;
+    color: #1f005c;
+}
+
+#range-length {
+    width: 450px;
+}
+
+#password {
+    text-align: center;
+    display: flex;
+    min-width: 50px;
+    padding: 0 20px;
+    border: none;
+    width: 100%;
+    color: #ffffff;
+    background: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+
+#symbols{
+    margin-top: 10px;
+}

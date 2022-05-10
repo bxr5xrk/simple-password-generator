@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Password Generator</title>
+</head>
+
+  <body>
+    <h1>Password Generator</h1>
+
+    <div class="password-generator">
+
+      <input type="text" value="None" id="password" /> <button id="copy">Copy</button>
+      
+      <div id="settings">
+
+        <div>
+          <input type="checkbox" id="numbers" checked />
+          <label for="numbers">Include Numbers</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" id="symbols" checked />
+          <label for="symbols">Include Symbols</label>
+        </div>
+        
+
+      </div>
+
+      <input type="range" min="8" max="32" value="8" class="slider" id="range-length">
+
+      <p>length: <span id="demo">8</span></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
